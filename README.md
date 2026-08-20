@@ -4,7 +4,7 @@ A modern, responsive frontend dashboard built with React and Vite. This applicat
 
 ## 🔗 LIVE DEMO
 Check out the live interactive application here: 
-👉 [Live React Developer Dashboard](https://github.io)
+👉 [Live React Developer Dashboard]( https://sribalija20-neela.github.io/react-developer/)
 
 ## 🛠️ TECH STACK AND KEY COMPONENTS USED
 - **Frontend Framework:** React (via Vite package bundler)
