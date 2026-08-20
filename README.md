@@ -1,16 +1,18 @@
-# React + Vite
+# 🚀 DEVELOPER DASHBOARD (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A modern, responsive frontend dashboard built with React and Vite. This application integrates a live weather data widget and a dynamic milestone/task tracker to demonstrate fundamental state management and asynchronous data fetching capabilities.
 
-Currently, two official plugins are available:
+## 🔗 LIVE DEMO
+Check out the live interactive application here: 
+👉 [Live React Developer Dashboard](https://github.io)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🛠️ TECH STACK AND KEY COMPONENTS USED
+- **Frontend Framework:** React (via Vite package bundler)
+- **State Management:** `useState` hook for local data arrays and dynamic task creation/deletion
+- **Side Effects & API Data Fetching:** `useEffect` hook utilizing native JavaScript `fetch()` to call third-party RESTful weather APIs
+- **Styling:** Clean inline structural layout models
 
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the Oxlint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## ⚙️ HOW TO RUN LOCALLY
+1. Clone this repository to your computer.
+2. Open the directory in your terminal and run `npm install`.
+3. Launch the development environment with `npm run dev`.
